@@ -1,6 +1,6 @@
 <script lang="ts">
 import a from "../../store/default/index"
-
+//https://api.themoviedb.org/3/movie/popular?api_key=10923b261ba94d897ac6b81148314a3f
 export default {
   async created() {
     this.data = await (await fetch("https://jsonplaceholder.typicode.com/todos")).json()
