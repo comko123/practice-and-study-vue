@@ -2,7 +2,7 @@
 
 -- vue 공부를 위한 repository
 
-## branch master (movie app)
+## branch master (movie app)*
 
 -- vue3로 영화 어플리케이션 구현하기
 
