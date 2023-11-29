@@ -1,5 +1,10 @@
 <template>
-  <div>{{ data }}</div>
+  <header class="mt-9">
+    {{ data.id }}
+  </header>
+  <main>
+    {{ data.title }}
+  </main>
 </template>
 
 <script lang="ts">
@@ -7,7 +12,7 @@ export default {
   name: "1",
   data() {
     const params = this.$route.params.id
-    const data = {}
+    const data: { [key: string]: string } = {}
     return { data, params }
   },
   async created() {
@@ -17,5 +22,3 @@ export default {
   }
 }
 </script>
-
-<style></style>

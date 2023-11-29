@@ -10,7 +10,7 @@
 
 -- vue3로 to-do-list 구현하기
 
-## branch board(board)
+## branch board(board)\*
 
 -- vue3로 게시판 구현하기
 
