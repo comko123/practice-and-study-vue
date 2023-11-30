@@ -6,7 +6,7 @@
 
 -- vue3로 영화 어플리케이션 구현하기
 
-## branch tdlist(to-do-list)
+## branch tdlist(to-do-list)\*
 
 -- vue3로 to-do-list 구현하기
 

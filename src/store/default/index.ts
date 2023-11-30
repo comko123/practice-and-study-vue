@@ -1,7 +1,14 @@
 import { defineStore } from "pinia"
-// import { ref } from "vue"
 const pinia = defineStore("main", {
-  state: () => ({ a: "header" })
+  state: (): { data: any[] } => ({ data: [] }),
+  actions: {
+    addCation(object: any) {
+      this.data.unshift(object)
+    },
+    deleteCation(index: number) {
+      this.data.splice(index, 1)
+    }
+  }
 })
 
 export default pinia
